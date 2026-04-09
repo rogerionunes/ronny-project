@@ -1,6 +1,6 @@
 # ronny-project
 
-Projeto Python basico para aprender do zero ate um nivel mais avancado.
+Projeto Python para aprender do basico ao avancado com pratica progressiva.
 
 ## Como rodar
 
@@ -13,39 +13,199 @@ python3 nome_do_arquivo.py
 Exemplos:
 
 ```bash
-python3 main.py
-python3 calculos.py
-python3 funcoes.py
 python3 01_variaveis.py
 python3 02_condicoes.py
+python3 03_loops.py
+python3 04_funcoes.py
 ```
 
-## Trilha de estudo
+## Planejamento de estudos
 
-Siga nesta ordem:
+### Nivel 1: fundamentos
 
-1. `main.py`: primeiro contato com o `hello world`.
-2. `calculos.py`: operacoes matematicas basicas.
-3. `funcoes.py`: funcoes simples com media e condicoes.
-4. `01_variaveis.py`: variaveis e tipos.
-5. `02_condicoes.py`: `if`, `elif` e `else`.
-6. `03_loops.py`: repeticao com `for` e `while`.
-7. `04_funcoes.py`: parametros, retorno e organizacao.
-8. `05_colecoes.py`: listas e dicionarios.
-9. `06_arquivos.py`: escrever e ler arquivos.
-10. `07_erros.py`: `try`, `except` e `finally`.
-11. `08_classes.py`: primeiras classes e objetos.
+Objetivo: entender como o Python funciona e perder o medo da sintaxe.
 
-## Dica de estudo
+Voce deve aprender:
+
+- `print`
+- variaveis
+- tipos basicos como `str`, `int`, `float` e `bool`
+- operadores matematicos
+- comparacoes
+- atribuicao de valores
+
+Arquivos relacionados:
+
+- `01_variaveis.py`
+
+### Nivel 2: decisoes no codigo
+
+Objetivo: fazer o programa tomar decisoes com base em regras.
+
+Voce deve aprender:
+
+- `if`
+- `elif`
+- `else`
+- comparacoes como `>`, `<`, `>=`, `<=`, `==`
+- operadores logicos como `and`, `or` e `not`
+
+Arquivos relacionados:
+
+- `02_condicoes.py`
+
+### Nivel 3: repeticao
+
+Objetivo: repetir tarefas sem escrever a mesma linha varias vezes.
+
+Voce deve aprender:
+
+- `for`
+- `while`
+- `range`
+- contador
+- acumulador
+
+Arquivos relacionados:
+
+- `03_loops.py`
+
+### Nivel 4: funcoes
+
+Objetivo: dividir o codigo em partes menores e reutilizaveis.
+
+Voce deve aprender:
+
+- `def`
+- parametros
+- retorno com `return`
+- organizacao de codigo
+- reutilizacao
+
+Arquivos relacionados:
+
+- `04_funcoes.py`
+
+### Nivel 5: colecoes
+
+Objetivo: guardar varios valores e estruturar melhor os dados.
+
+Voce deve aprender:
+
+- listas
+- dicionarios
+- percorrer dados com `for`
+- adicionar e acessar valores
+
+Arquivos relacionados:
+
+- `05_colecoes.py`
+
+### Nivel 6: arquivos
+
+Objetivo: salvar e ler informacoes fora do programa.
+
+Voce deve aprender:
+
+- criar arquivos
+- escrever texto
+- ler conteudo
+- entender caminhos e arquivos no projeto
+
+Arquivos relacionados:
+
+- `06_arquivos.py`
+
+### Nivel 7: tratamento de erros
+
+Objetivo: impedir que o programa quebre de forma inesperada.
+
+Voce deve aprender:
+
+- `try`
+- `except`
+- `finally`
+- erros comuns como divisao por zero
+
+Arquivos relacionados:
+
+- `07_erros.py`
+
+### Nivel 8: orientacao a objetos
+
+Objetivo: modelar coisas do mundo real em codigo.
+
+Voce deve aprender:
+
+- classes
+- objetos
+- atributos
+- metodos
+- `__init__`
+- `self`
+
+Arquivos relacionados:
+
+- `08_classes.py`
+
+### Nivel 9: intermediario
+
+Objetivo: combinar tudo o que voce aprendeu em pequenos sistemas.
+
+Voce deve praticar:
+
+- menus no terminal
+- cadastro de dados
+- validacao de entrada
+- leitura e escrita em arquivo
+- organizacao em mais de um arquivo
+
+Sugestoes de projetos:
+
+- agenda de contatos
+- lista de tarefas
+- boletim escolar
+- calculadora interativa
+
+### Nivel 10: avancado
+
+Objetivo: ganhar maturidade para criar projetos reais.
+
+Voce deve estudar depois:
+
+- modulos
+- pacotes
+- ambiente virtual
+- JSON
+- APIs
+- bibliotecas externas
+- compreensao de listas
+- orientacao a objetos mais completa
+
+Sugestoes de projetos:
+
+- sistema de estoque
+- consumo de API
+- automacao simples
+- organizador de arquivos
+
+## Ordem recomendada
+
+1. `01_variaveis.py`
+2. `02_condicoes.py`
+3. `03_loops.py`
+4. `04_funcoes.py`
+5. `05_colecoes.py`
+6. `06_arquivos.py`
+7. `07_erros.py`
+8. `08_classes.py`
+9. `exercicios.md`
+
+## Dicas de estudo
 
 - Rode um arquivo por vez.
-- Leia os comentarios.
-- Mude os valores para ver o que acontece.
-- Tente quebrar o codigo de proposito para aprender com os erros.
-
-## Estrutura
-
-- `main.py`: exemplo inicial com `hello world`.
-- `calculos.py`: contas matematicas simples.
-- `funcoes.py`: media, status e formatacao de numeros.
-- `01_variaveis.py` ate `08_classes.py`: trilha progressiva de aprendizado.
+- Leia os comentarios com calma.
+- Mude valores e execute de novo.
+- Tente prever o resultado antes de rodar.
+- Reescreva os exemplos com seus proprios dados.
+- Use o [exercicios.md](/home/ronunes/myproject/ronny-project/exercicios.md) para praticar sem pressa.
